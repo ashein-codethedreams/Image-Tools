@@ -1,6 +1,7 @@
 import "./App.css";
 import Lightbox from "./components/LightBox";
 import MyGallery from "./components/MyGallery";
+import NewLightBox from "./components/NewLightBox";
 import PhotoLayout from "./components/PhotoLayout";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <br />
       <Lightbox />
       <br />
+      <NewLightBox />
     </div>
   );
 }
